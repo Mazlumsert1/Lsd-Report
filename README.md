@@ -13,7 +13,9 @@
 ### 1.4. Software Design 
 
 ### 1.5 Software implementation 
+
 <br>
+
 ## 2. Maintenance And SLA status 
 
 ### 2.1. Hand-over
@@ -21,13 +23,17 @@
 ### 2.2. Service-level agreement
 
 ### 2.3. Maintenance and reliability
+
 <br>
+
 ## 3. Discussion
 
 ### 3.1 Technical discussion
 
 ### 3.2 Group work reflection & Lessons learned
+
 <br>
+
 ## Conclusion
 
 
