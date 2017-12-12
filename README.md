@@ -1,4 +1,4 @@
-<h1 align="center">  Hackernews Exam Report </h1>
+<h1 align="center"> Hackernews Exam Report </h1>
 
 ## Introduction
 
@@ -15,6 +15,18 @@
 ### 1.5 Software implementation 
 
 ## 2. Maintenance And SLA status 
+
+### 2.1. Hand-over
+
+### 2.2. Service-level agreement
+
+### 2.3. Maintenance and reliability
+
+## 3. Discussion
+
+### 3.1 Technical discussion
+
+### 3.2 Group work reflection & Lessons learned
 
 ## Conclusion
 
