@@ -1,8 +1,8 @@
 <h1 align="center"> Hackernews Exam Report </h1>
 
 ## Introduction
-This report will contain an examination of the hackernews clone system, and a analysis where we dive into the thought process behind the development of system, how the group worked as a team and get more technical. 
-We will dive into crucial functinality the hackernews system consist of, the different requirements, the architecture, and how the Maintenance process has been, and much more. We have provided illustrations for the reader along the way, to make it more effortless for the reader.  
+This report will contain an examination of the hackernews clone system, and a analysis where we dive into the thought process behind the development of system, how the group worked as a team and also get more technical. 
+We will dive into crucial functinality the hackernews system consists of, the different requirements, the architecture, and how the maintenance process has been, and much more. We have provided illustrations for the reader along the way, to make it more effortless for the reader.  
 
 
 ## 1. Requirements, architecture, design and process
