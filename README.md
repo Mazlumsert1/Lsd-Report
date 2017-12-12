@@ -4,7 +4,7 @@
 
 ## 1. Requirements, architecture, design and process
 
--### 1.1. System Requirements 
+### 1.1. System Requirements 
 
 ### 1.2. Development process
 
