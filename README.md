@@ -1,4 +1,4 @@
-#               <center>Hackernews Exam Report</center>
+<h1 align="center">  Hackernews Exam Report </h1>
 
 ## Introduction
 
