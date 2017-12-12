@@ -14,7 +14,7 @@
 
 ### 1.5 Software implementation 
 
-<br>
+<hr>
 
 ## 2. Maintenance And SLA status 
 
@@ -24,7 +24,7 @@
 
 ### 2.3. Maintenance and reliability
 
-<br>
+<hr>
 
 ## 3. Discussion
 
@@ -32,7 +32,7 @@
 
 ### 3.2 Group work reflection & Lessons learned
 
-<br>
+<hr>
 
 ## Conclusion
 
