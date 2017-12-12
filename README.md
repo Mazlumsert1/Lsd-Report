@@ -1,4 +1,4 @@
-# Hackernews Exam Report
+# <center>Hackernews Exam Report</center>
 
 ## Introduction
 
