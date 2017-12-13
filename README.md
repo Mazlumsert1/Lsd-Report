@@ -27,7 +27,6 @@ The system requirements has been assembled by analysing and diving into 2 differ
 + Users can login
 + Guests can read stories
 + Guests can register 
-+ 
 ### 1.2. Development process
 
 ### 1.3. Software architecture 
