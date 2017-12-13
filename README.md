@@ -16,7 +16,7 @@ Generely the report consists of:
 We have provided illustrations for the reader along the way, to make it more effortless for the reader.  
 
 ## 1. Requirements, architecture, design and process
-This part of the report will consists of on the different requirements, the architecture we have choosen, the design behind the different components and the process it took to construct, the components, architecture.   
+This part of the report will consists of on the different requirements, the architecture we have choosen, the design behind the different components and the process it took to construct, the components and the architecture of the system.   
 
 ### 1.1. System Requirements 
 
