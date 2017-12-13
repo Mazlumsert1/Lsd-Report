@@ -3,12 +3,23 @@
 ## Introduction
 This report will contain an examination of the hackernews clone system, and a analysis where we dive into the thought process behind the development of system, how the group worked as a team and also get more technical. 
 We will dive into crucial functinality the hackernews system consists of, the different requirements, the architecture, and how the maintenance process has been, and much more. 
+
+Generely the report consists of:
++ **Requirements** 
++ **Architecture** 
++ **Design** 
++ **Development process**
++ **SLA(Service-level agreement) and Maintenance**  
++ **Discussion; technical and Group work**
++ **Conclusion** 
+
 We have provided illustrations for the reader along the way, to make it more effortless for the reader.  
 
 ## 1. Requirements, architecture, design and process
 This part of the report will consists of on the different requirements, the architecture we have choosen, the design behind the different components and the process it took to construct, the components, architecture.   
 
 ### 1.1. System Requirements 
+
 
 ### 1.2. Development process
 
