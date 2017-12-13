@@ -13,13 +13,12 @@ Generely the report consists of:
 + **Discussion; technical and Group work**
 + **Conclusion** 
 
-We have provided illustrations for the reader along the way, to make it more effortless for the reader.  
+We have provided illustrations along the way, to make it more effortless for the reader.  
 
 ## 1. Requirements, architecture, design and process
 This part of the report will consists of on the different requirements, the architecture we have choosen, the design behind the different components and the process it took to construct, the components and the architecture of the system.   
-
 ### 1.1. System Requirements 
-
+The system requirements has been assembled by analysing, [Hackernews](https://news.ycombinator.com), and reading the description of hacker news by Helge.  
 
 ### 1.2. Development process
 
