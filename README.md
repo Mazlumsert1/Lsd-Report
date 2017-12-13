@@ -18,7 +18,7 @@ We have provided illustrations along the way, to make it more effortless for the
 ## 1. Requirements, architecture, design and process
 This part of the report will consists of on the different requirements, the architecture we have choosen, the design behind the different components and the process it took to construct, the components and the architecture of the system.   
 ### 1.1. System Requirements 
-The system requirements has been assembled by analysing, [Hackernews](https://news.ycombinator.com), and reading the description of hacker news by Helge.  
+The system requirements has been assembled by analysing, [Hackernews](https://news.ycombinator.com), and reading the description of hacker news by Helge, [Hackernews description](https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/assignments/01-HN%20Clone%20Task%20Description.ipynb )
 
 ### 1.2. Development process
 
