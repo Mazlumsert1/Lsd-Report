@@ -44,7 +44,7 @@ The CD chain steps:
 + Travis CI trigs the push and runs the tests.
 + Then Forge is trigged by Travis CI and deploy the changes to the remote server.
 
-You can think of Laravel Forge as, administration UI on top of Digital Ocean. Where we not required to learn server administration skills, laravel forge automates deployment! in that way we can spend more time on our code instead of devops.   
+You can think of Laravel Forge as, administration UI on top of Digital Ocean. Where we not required to learn server administration skills, laravel forge automates deployment! It's important to note that laravel forge does not provide the servers, it's a UI that simplyfies the tasks. In that way we can spend more time on our code instead of devops. 
 
 ### 1.2. Development process
 
