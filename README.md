@@ -15,14 +15,15 @@ Generely the report consists of:
 
 We have provided illustrations along the way, to make it more effortless for the reader.  
 
-
-
 ## 1. Requirements, architecture, design and process
 This part of the report will consists of on the different requirements, the architecture we have choosen, the design behind the different components and the process it took to construct, the components and the architecture of the system.   
 ### 1.1. System Requirements 
 The system requirements has been assembled by analysing and diving into 2 different kind of resources, [Hackernews](https://news.ycombinator.com), and reading the description of hacker news by Helge, [Hackernews description](https://github.com/datsoftlyngby/soft2017fall-lsd-teaching-material/blob/master/assignments/01-HN%20Clone%20Task%20Description.ipynb ). 
-These are also the userstories we have implemented, still missing some of them. More is to come.
 
+#### Scope 
+The scope of the system is making sure that we have all the requirements done and implemented, and also to make sure that it mimics some of the important functionalities of hackernews. To get an better idea of the scope of the system see our requirements below. To the mentioned functionallities, we will also provide a front-end.   
+
+**Functional requirements:**
 + Users can publish a story
 + Users can comment a story
 + Users can reply a comment
@@ -31,20 +32,37 @@ These are also the userstories we have implemented, still missing some of them. 
 + Users can login
 + Guests can read stories
 + Guests can register
-+ Rest-API Service
++ User has profile page
++ User can edit profile page
++ Rest-API service
 
-#### Tasks 
-Since we are using **Laravel PHP framework**, it was pretty obvious for us using **Laravel Forge** for **Continuous Deployment** since it is build for laravel, and **Travis** for **Continuous Integration**. The steps on how we have accomplished this is shown in the picture below:   
+**Non-Functional requirements:**
+##### Usability: 
+The system will be clone of hackernews, it will have a straightforward front-end, easy to use. 
 
-![Visualisation of CD flow](https://raw.githubusercontent.com/bigstepdenmark/HackerNews/master/systemmodels/CDflow.png)
+Primarily when the user interacts with the website, the user should be able to see Stories, that has been posted that specific day where the newest post is at the top.    
 
-The CD chain steps:
+The user should also be able to see comments to the selected story, if the comments are nested it should be in a understandable maner, and read through them effortlessly.   
 
-+ Push to master branch on Github.
-+ Travis CI trigs the push and runs the tests.
-+ Then Forge is trigged by Travis CI and deploy the changes to the remote server.
+##### Reliability:
+According to our **Service Level Agreement**, [SLA](https://github.com/HakimiX/SLA) we are expecting 95% uptime for the overall system, that means that our system should be 95% operational. 
 
-You can think of Laravel Forge as, administration UI on top of Digital Ocean. Where we not required to learn server administration skills, laravel forge automates deployment! It's important to note that laravel forge does not provide the servers, it's a UI that simplyfies the tasks. In that way we can spend more time on our code instead of devops. 
+##### Performance:
+The system is able to handle incomming stories even if the amount of stories it increases rapidly. 
+We did have some problems with the server we got an **429 error code** therefor lots of data was lost, due to bad **team and time management**. The data we did receive, is working fine in our system and is responsiv.   
+
+##### Supportability:
+Everything will be documented as it now in this documentation, and also some of the documents mentioned above.  
+
+##### Implementation:
+As any system, our system consists of a hardware and software platform. The software platform,       
+
+#### Deploymemt
+To see our **Deployment Chain and Strategy** visit the link:
+
+[CD chain](https://github.com/bigstepdenmark/HackerNews/blob/master/cd-documentation.md)
+
+
 
 ### 1.2. Development process
 
