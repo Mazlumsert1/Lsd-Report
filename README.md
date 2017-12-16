@@ -66,7 +66,7 @@ To see our **Deployment Chain and Strategy** visit the link:
 We have implemented a **three-layered architecture**, the reason for this decission was simple it was an arcitecture we in team was familiare with. 
 The three layers are **Presentation layer**, **Business Logic layer** and **Data Access layer**. 
 
-![Architecture](https://github.com/Mazlumsert1/Lsd-Report/blob/master/images/Architecture.jpg)
+![Architecture](https://github.com/HakimiX/Documentation/blob/master/Models/Subsystem.jpg)
 
 The design is separated into different areas of concern, which minimizes the complexity. The user interface, business processing and data access all represent different areas of concern. Within each area, the components focus on that specific area, and does not incorporate code from other areas of concern. For example, the front-end UI processing component does not include code that directly accesses the database, but instead makes use of data access component or business components to retrieve data.
 
@@ -117,9 +117,11 @@ The hardware aspect in our system, consists of a remote server which is handled 
 ### 2.1. Hand-over
 The focus is on technical documentation. The purpose of a technical document is to show the development process. It includes information about the initial software requirements, system overview, technical requirements, system configuration, setup and dependencies. 
 
-The technical documentation should allow other developers to operate our systems, report issues and provide feedback. Our technical document provides an overview of the Hacker news clone system requirements and a lead-in to the system architecture, components, dataflow and workflow. In addition, we have a section about Issue submission and system access.
+The technical documentation should allow other developers to operate our systems, report issues and provide feedback. Our technical document provides an overview of the Hacker news clone system requirements and a lead-in to the system architecture, components, dataflow and workflow. In addition, we have a section about Issue submission and system access. [Technical Documentation](https://github.com/HakimiX/Documentation)
 
-It was our responsibility to operate Group J’s system. Their technical document was missing information about system architecture, proper description of data flow process and a detailed issue submission. Generally, their technical document was not very detailed and we didn’t feel well equipped to maintain their system. For example, we got a HTTP Status 404 – Not Found Error whenever we tried to access Group J’s backend through the browser. 
+It was our responsibility to operate Group J’s system. Their technical document was missing information about system architecture, proper description of data flow process and a detailed issue submission. Generally, their technical document was not very detailed and we didn’t feel well equipped to maintain their system. For example, we got a HTTP Status 404 – Not Found Error whenever we tried to access Group J’s backend through the browser. [Group J's backend](http://46.101.111.112:8080/lsd-backend/)
+
+![Text](https://github.com/HakimiX/part2/blob/master/Models/GroupJBackend.jpg)
 
 ### 2.2. Service-level agreement
 
