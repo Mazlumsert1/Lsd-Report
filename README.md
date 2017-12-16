@@ -81,7 +81,7 @@ Laravel makes use of the **MVC architecture pattern**, which divides our applica
 
 There are lot of advantages to MVC pattern **low coupling** between the three main components, **easier to unit test**, more **organized code** etc.  
 
-![MVC](https://github.com/Mazlumsert1/Lsd-Report/blob/master/images/MVC_Model.jpg)
+![MVC](https://github.com/HakimiX/Documentation/blob/master/Models/MVCModel.jpg)
 
 1. A request is made, when a user enters a URL associated with the application
 2. A Route associated with that URL maps that URL to a Controller action
@@ -100,7 +100,7 @@ The **back-end** is created using **Laravel 5.5** where we have kept the classes
 This is how we designed the database to start with, and also this is the way it is designed, so our plans have worked. The database is also normalized folowing the three normal forms **1NF, 2NF and 3NF**.  
 
 **The Entity diagram**:  
-![Database](https://github.com/Mazlumsert1/Lsd-Report/blob/master/images/database.png)
+![Database](https://camo.githubusercontent.com/ce02a2e2d3b1cd08ea1ef23020c5b27d1cb57116/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f346c7767796b646f3534736d6f70752f45522e706e673f7261773d31)
 
 
 ### 1.5 Software implementation 
