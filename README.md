@@ -55,7 +55,11 @@ We did have some problems with the server we got an **429 error code** therefor 
 Everything will be documented as it now in this documentation, and also some of the documents mentioned above.  
 
 ##### Implementation:
-As any system, our system consists of a hardware and software platform. The software platform,       
+As most systems, our system consists of a hardware and software platform. 
+We have created a small environment in Docker, first installing docker toolbox and we have created a container which consists of MariaDB database.   
+
+
+
 
 #### Deploymemt
 To see our **Deployment Chain and Strategy** visit the link:
