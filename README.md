@@ -124,6 +124,17 @@ It was our responsibility to operate Group J’s system. Their technical documen
 ![Text](https://github.com/HakimiX/part2/blob/master/Models/GroupJBackend.jpg)
 
 ### 2.2. Service-level agreement
+he service-level agreement is a contract that defines the agreement between a customer and service provider. It specifies what the customer will receive and clarifies what performance standards the service provider is obligated to meet. Our service-level agreement contains a description of what the contract includes and service agreements. The following service parameters were the responsibility of the service provider:
+
+* __Uptime__ – applies to servers, cloud services or other parts of the system that are vital. Guaranteed at least 95% uptime. 
+
+* __CPU Usage__ – applies to amount of actively used CPU, as percentage of total available CPU. Amount of used CPU time (CPU used, CPU wait etc.). Alert if CPU is above 70% for 5 min. 
+
+* __Group A support response time__ – applies to how long it takes Group A to respond when we raise a request for support. Respond to critical problems within 24 hours. 
+
+We did not have any disagreements about the service-level agreement. Our service-level agreement was written in a spirit of partnership. We were sure that Group A would do everything possible to rectify every issue. 
+
+The service-level agreement was supposed to contain information about system monitoring using Grafana/Prometheus. Unfortunately, we were not able to setup Grafana/Prometheus properly. Group A could not comply with our service-level agreement, because we were not able to configure monitoring. Our monitoring problems will be explained in the following section.
 
 ### 2.3. Maintenance and reliability
 
