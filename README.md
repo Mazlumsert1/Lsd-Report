@@ -56,9 +56,7 @@ We did have some problems with the server we got an **429 error code** therefor 
 Everything will be documented as it now in this documentation, and also some of the documents mentioned above.  
 
 ### 1.2. Development process
-
 ##### Deploymemt
-# Continuous CI and CD Documentation
 
 MVP Application: [http://165.227.136.184](http://165.227.136.184)
 
@@ -100,7 +98,7 @@ In our hackernews system, we have combined **Laravel Forge** and **Envoyer**. We
 
 
 
-![CD](systemmodels/CDflow.png)
+![CD](https://github.com/bigstepdenmark/HackerNews/blob/master/systemmodels/CDflow.png)
 
 
 
