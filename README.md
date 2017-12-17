@@ -63,12 +63,10 @@ The system will have three different interfaces:
 * __Application Programming Interface (API)__ - External programs shall be able to publish posts and comments to the system.
 
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/InterfacesModel.jpg)
- 
 
 ### 1.2. Development process
 
 ##### Deploymemt
-
 MVP Application: [http://165.227.136.184](http://165.227.136.184)
 
 ---
@@ -104,10 +102,12 @@ In our hackernews system, we have combined **Laravel Forge** and **Envoyer**. We
  - Push to master branch on Github.
  - Travis CI trigs the push and runs the tests.
  - Then Forge is trigged by Travis CI and deploy the changes to the remote server.
-
  ---
 
 ![CD](https://github.com/bigstepdenmark/HackerNews/blob/master/systemmodels/CDflow.png)
+
+##### Produciton
+The way we have delivered new features to the production, is using our deployment strategy, which can be seen above **CD chain steps**.      
 
 
 ### 1.3. Software architecture 
@@ -136,10 +136,12 @@ There are lot of advantages to MVC pattern **low coupling** between the three ma
 3. That Controller action leverages the necessary Models to retrieve information from the database, and the passes that data off to a View
 4. And that View renders the final page
 
+
+
 ### 1.4. Software Design 
 
 #### Front-end
-The **front-end** is creatd using **Vue**, this was not planned from the start its something we planned later in the process. Using **Vue** to make api calls to our Rest-Api to get the different kind of data. We have tried keep it as simple as possible, so the code is easy to understand.    
+The **front-end** is creatd using **Vue**, this was not planned from the start its something we planned later in the process. Using **Vue** to make api calls to our Rest-Api to get the different kind of data, example stories or comments. We have tried keep it as simple as possible, so the code can be understood effortlessly.     
 
 #### Back-end
 The **back-end** is created using **Laravel 5.5** where we have kept the classes and methods small and simple as possible. We have tried follow the concept **low coupling** and **high cohesion** to get better quality code, also make it better for changes to come, and also to unit test.      
