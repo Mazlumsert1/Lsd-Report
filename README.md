@@ -53,7 +53,8 @@ The system is able to handle incomming stories even if the amount of stories it 
 We did have some problems with the server we got an **429 error code** therefor lots of data was lost, due to bad **team and time management**. The data we did receive, is working fine in our system and is responsiv.   
 
 ##### Supportability:
-Everything will be documented as it now in this documentation, and also some of the documents mentioned above.  
+Everything will be documented as it now in this documentation, and also some of the documents mentioned above. These documents can and has been used as technical support. We have also logging that also can be used technical support and has been used by us to see the different mistakes that been made. Example when we discovered the http error code **429 to many requests**.    
+
 
 ### 1.2. Development process
 ##### Deploymemt
@@ -96,10 +97,7 @@ In our hackernews system, we have combined **Laravel Forge** and **Envoyer**. We
 
  ---
 
-
-
 ![CD](https://github.com/bigstepdenmark/HackerNews/blob/master/systemmodels/CDflow.png)
-
 
 
 ### 1.3. Software architecture 
