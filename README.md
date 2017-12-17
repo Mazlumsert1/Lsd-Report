@@ -53,10 +53,20 @@ The system is able to handle incomming stories even if the amount of stories it 
 We did have some problems with the server we got an **429 error code** therefor lots of data was lost, due to bad **team and time management**. The data we did receive, is working fine in our system and is responsiv.   
 
 ##### Supportability:
-Everything will be documented as it now in this documentation, and also some of the documents mentioned above. These documents can and has been used as technical support. We have also logging that also can be used technical support and has been used by us to see the different mistakes that been made. Example when we discovered the http error code **429 to many requests**.    
+Everything will be documented as it now in this documentation, and also some of the documents mentioned above. These documents can and has been used as technical support. We have implemented also **logging of the system state** that can be used technical support and has been used by us to see the different mistakes that been made. Example using logging we discovered the http error code **429 to many requests**.    
 
+##### Interface
+The system will have three different interfaces:
+
+* __User interfaces__ - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system.
+* __Communication interfaces__ - the system shall use the HTTP protocol for communication over the internet.
+* __Application Programming Interface (API)__ - External programs shall be able to publish posts and comments to the system.
+
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/InterfacesModel.jpg)
+ 
 
 ### 1.2. Development process
+
 ##### Deploymemt
 
 MVP Application: [http://165.227.136.184](http://165.227.136.184)
