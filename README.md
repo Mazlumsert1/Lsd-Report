@@ -224,11 +224,13 @@ We have been very frustrated by this problem and are disappointed that we could 
 ## 3. Discussion
 
 ### 3.1 Technical discussion
+The first part was interesting, it was challenging especially with monotering, we got explore new technologies which was fun and at times could be diffucult, for example Docker and Vagrant.  
 
+But there also a lot stuff that wasn't new that we felt we became better at, example CD, CI and database.  
 
 
 ### 3.2 Group work reflection & Lessons learned
-Looking back we should have done a better job managing the team and the time. In the beginning of the this course, we felt like we were in control, we made an contract where everybody was forced to sign, if everybody in the team wanted to continue.  
+Looking back we should have done a better job managing the team and the time. In the beginning of the this course, we felt like we were in control, we made an contract where everybody was forced to sign, if everybody in the team wanted to continue.   
 
 
 ## Conclusion
