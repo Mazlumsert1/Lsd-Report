@@ -137,11 +137,11 @@ There are lot of advantages to MVC pattern **low coupling** between the three ma
 4. And that View renders the final page
 
 
-
 ### 1.4. Software Design 
 
 #### Front-end
-The **front-end** is creatd using **Vue**, this was not planned from the start its something we planned later in the process. Using **Vue** to make api calls to our Rest-Api to get the different kind of data, example stories or comments. We have tried keep it as simple as possible, so the code can be understood effortlessly.     
+The **front-end** is creatd using **Vue**, this was not planned from the start its something we planned later in the process, the reason was simple we wanted to try a new framework. 
+Using **Vue** to make api calls to our Rest-Api to get the different kind of data, example stories or comments. We have tried keep it as simple as possible, so the code can be understood effortlessly.     
 
 #### Back-end
 The **back-end** is created using **Laravel 5.5** where we have kept the classes and methods small and simple as possible. We have tried follow the concept **low coupling** and **high cohesion** to get better quality code, also make it better for changes to come, and also to unit test.      
@@ -151,6 +151,9 @@ This is how we designed the database to start with, and also this is the way it 
 
 **The Entity diagram**:  
 ![Database](https://camo.githubusercontent.com/ce02a2e2d3b1cd08ea1ef23020c5b27d1cb57116/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f346c7767796b646f3534736d6f70752f45522e706e673f7261773d31)
+
+##### Load Balancing
+
 
 
 ### 1.5 Software implementation 
@@ -218,12 +221,14 @@ We have been very frustrated by this problem and are disappointed that we could 
 
 ### 2.3. Maintenance and reliability
 
-
 ## 3. Discussion
 
 ### 3.1 Technical discussion
 
+
+
 ### 3.2 Group work reflection & Lessons learned
+Looking back we should have done a better job managing the team and the time. In the beginning of the this course, we felt like we were in control, we made an contract where everybody was forced to sign, if everybody in the team wanted to continue.  
 
 
 ## Conclusion
