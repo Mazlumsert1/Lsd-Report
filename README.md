@@ -65,6 +65,7 @@ The system will have three different interfaces:
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/InterfacesModel.jpg)
 
 ### 1.2. Development process
+We have been using github to version control and collaboration, so that the we as a group split the different assignments. 
 
 ##### Deploymemt
 MVP Application: [http://165.227.136.184](http://165.227.136.184)
