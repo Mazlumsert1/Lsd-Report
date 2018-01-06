@@ -65,7 +65,7 @@ The system will have three different interfaces:
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/InterfacesModel.jpg)
 
 ### 1.2. Development process
-We have been using github to version control and collaboration, so that the we as a group split the different assignments. 
+We have been using github to version control and collaboration, so that the we as a group could split the different assignments. The assigments has ussually been splitted in pairs, since we are 4 in the team (Mazlum & Ismail) and (Mert & Mustafa). Me(Mazlum) and Ismail we used scrum the way it suited us best, we did not do any sprints, we did use userstories at times did them together and at times seperate. 
 
 ##### Deploymemt
 MVP Application: [http://165.227.136.184](http://165.227.136.184)
