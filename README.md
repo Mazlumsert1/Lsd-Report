@@ -66,9 +66,8 @@ The system will have three different interfaces:
 
 ### 1.2. Development process
 We have been using github to version control and collaboration, so that the we as a group could split the different assignments. The assigments has ussually been splitted in pairs, since we are 4 in the team (Mazlum & Ismail) and (Mert & Mustafa). 
-Me(Mazlum) and Ismail we used scrum the way it suited us best, we did not do any sprints, we did use userstories at times did them together and at times seperate. If one of us had some issues we would typically use teamviewer to help each other. For example there have been lot of pair programming working with our front-end.  
 
-When we started to recieve data from the 
+Me(Mazlum) and Ismail used scrum the way it suited us best, we did not do any sprints, we did use userstories at times did them together and at times seperate. If one of us had some issues we would typically use teamviewer to help each other. For example there have been lot of pair programming working with our front-end.  
 
 ##### Deploymemt
 MVP Application: [http://165.227.136.184](http://165.227.136.184)
@@ -148,18 +147,16 @@ The **front-end** is creatd using **Vue**, this was not planned from the start i
 Using **Vue** to make api calls to our Rest-Api to get the different kind of data, example stories or comments. We have tried keep it as simple as possible, so the code can be understood effortlessly. Also we have build an "Single Page Application" (or SPA), using vue.
 The reason for this is we wanted it to be fast since the page only loads once, more responsiv and better performance since rendering happens on the client side. Another benefit of SPA is that the content is presented in a simple way and workable way, this is important because since the user should be able to post stories and comments etc. fast so there is a clear beginning and end, without endless clicks.       
 
-Here are some pictures of our front-end:
-
-Front page:
+**Front page:**
 ![Welcome to Hackernews](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/1.png)
 
-Stories:
+**Stories:**
 ![Stories](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/3.gif)
 
-Creation of a Story:
+**Creation of a Story:**
 ![Create Story](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/7.png)
 
-Creation of a account:
+**Creation of a account:**
 ![Create Account](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/5.png)
 
 #### Back-end
@@ -250,7 +247,8 @@ But there also a lot stuff that wasn't new that we felt we became better at, for
 ### 3.2 Group work reflection & Lessons learned
 Looking back we should have done a better job managing the team and the time. In the beginning of the this course, we felt like we were in control, we made an contract where everybody was forced to sign, if everybody in the team wanted to continue.   
 
-
 ## Conclusion
+When we started to recieve the massive amount data from the simulator, it worked flawless, in total we recieved approximately 3 million stories and comments. 
+Because we werent wary, we didn't notice that we got **429 Http error code** and contuinued in ignorance. Another reason we didn't notice this error code, is that our group(K) color(Blue) in the [Chart](http://138.68.91.198/chart.svg)looked very similar to another groups color, so we thought were doing fine recieving data, and also our graph were hidden behind the other graphs. Of course this is not excuse for us not noticing it! But in the future the teachers should be aware of this.        
 
 
