@@ -53,7 +53,8 @@ The system is able to handle incomming stories even if the amount of stories it 
 We did have some problems with the server we got an **429 error code** therefor lots of data was lost, due to bad **team and time management**. The data we did receive, is working fine in our system and is responsiv.   
 
 ##### Supportability:
-Everything will be documented as it now in this documentation, and also some of the documents mentioned above. These documents can and has been used as technical support. We have implemented also **logging of the system state** that can be used technical support and has been used by us to see the different mistakes that been made. Example using logging we discovered the http error code **429 to many requests**.    
+Everything will be documented as it now in this documentation, and also some of the documents mentioned above. These documents can and has been used as technical support. 
+We have implemented also **logging of the system state** that can be used technical support and has been used by us to see the different mistakes that been made. Example using logging we discovered the http error code **429 to many requests**.    
 
 ##### Interface
 The system will have three different interfaces:
@@ -63,6 +64,8 @@ The system will have three different interfaces:
 * __Application Programming Interface (API)__ - External programs shall be able to publish posts and comments to the system.
 
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/InterfacesModel.jpg)
+
+The reason we are getting this **status 429** is because, our server asks of us to stop spamming requests in a specific time interval: These requests are of course from the simulator. The way we could have solved this problem, would be       
 
 ### 1.2. Development process
 We have been using github to version control and collaboration, so that the we as a group could split the different assignments. The assigments has ussually been splitted in pairs, since we are 4 in the team (Mazlum & Ismail) and (Mert & Mustafa). 
@@ -170,8 +173,6 @@ This is how we designed the database to start with, and also this is the way it 
 
 ##### Load Balancing
 
-
-
 ### 1.5 Software implementation 
 As most systems, our system consists of a hardware and software platform. 
 We have created a small environment in Docker, first installing docker toolbox and we have created a container which consists of MariaDB database.   
@@ -249,6 +250,6 @@ Looking back we should have done a better job managing the team and the time. In
 
 ## Conclusion
 When we started to recieve the massive amount data from the simulator, it worked flawless, in total we recieved approximately 3 million stories and comments. 
-Because we werent wary, we didn't notice that we got **429 Http error code** and contuinued in ignorance. Another reason we didn't notice this error code, is that our group(K) color(Blue) in the [Chart](http://138.68.91.198/chart.svg)looked very similar to another groups color, so we thought were doing fine recieving data, and also our graph were hidden behind the other graphs. Of course this is not excuse for us not noticing it! But in the future the teachers should be aware of this.        
+Because we werent wary, we didn't notice that we got **429 Http error code** and contuinued in this fog of ignorance. Another reason we didn't notice this error code, is that our group(K) had the color(Blue) in the [Chart](http://138.68.91.198/chart.svg) looked very similar to another groups color, so we thought were doing fine recieving data, and also our graph were hidden behind the other graphs so made it hard to see. Of course this is not excuse for us not noticing it! But in the future the teachers should be aware of this. 
 
 
