@@ -146,9 +146,21 @@ There are lot of advantages to MVC pattern **low coupling** between the three ma
 #### Front-end
 The **front-end** is creatd using **Vue**, this was not planned from the start its something we planned later in the process, the reason was simple we wanted to try a new framework. 
 Using **Vue** to make api calls to our Rest-Api to get the different kind of data, example stories or comments. We have tried keep it as simple as possible, so the code can be understood effortlessly. Also we have build an "Single Page Application" (or SPA), using vue.
-The reason for this is we wanted it to be fast since the page only loads once, more responsiv and better performance since rendering happens on the client side. Another benefit of SPA is that the content is presented in a simple way and workable way, this is important because since the user should be able to post stories and comments etc. fast so there is a clear beginning and end, without endless clicks.           
+The reason for this is we wanted it to be fast since the page only loads once, more responsiv and better performance since rendering happens on the client side. Another benefit of SPA is that the content is presented in a simple way and workable way, this is important because since the user should be able to post stories and comments etc. fast so there is a clear beginning and end, without endless clicks.       
 
+Here are some pictures of our front-end:
+
+Front page:
 ![Welcome to Hackernews](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/1.png)
+
+Stories:
+![Stories](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/3.gif)
+
+Creation of a Story:
+![Create Story](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/7.png)
+
+Creation of a account:
+![Create Account](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/5.png)
 
 #### Back-end
 The **back-end** is created using **Laravel 5.5** where we have kept the classes and methods small and simple as possible. We have tried follow the concept **low coupling** and **high cohesion** to get better quality code, also make it better for changes to come, and also to unit test.      
