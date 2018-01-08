@@ -162,6 +162,8 @@ The reason for this is we wanted it to be fast since the page only loads once, m
 **Creation of a account:**
 ![Create Account](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/5.png)
 
+Link to our project: [Hackernews Clone](http://165.227.165.30/#/)
+
 #### Back-end
 The **back-end** is created using **Laravel 5.5** where we have kept the classes and methods small and simple as possible. We have tried follow the concept **low coupling** and **high cohesion** to get better quality code, also make it better for changes to come, and also to unit test.      
 
