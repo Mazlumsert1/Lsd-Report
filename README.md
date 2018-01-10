@@ -68,7 +68,7 @@ The system will have three different interfaces:
 
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/InterfacesModel.jpg)
 
-The reason we are getting this **status 429** is because, our server asks of us to stop spamming requests in a specific time interval: These requests are of course from the simulator. The way we could have solved this problem, would be       
+The reason we are getting this **status 429** is because, our server asks of us to stop spamming requests in a specific time interval: These requests are of course from the simulator.
 
 ### 1.2. Development process
 We have been using github to version control and collaboration, so that the we as a group could split the different assignments. The assigments has ussually been splitted in pairs, since we are 4 in the team (Mazlum & Ismail) and (Mert & Mustafa). 
