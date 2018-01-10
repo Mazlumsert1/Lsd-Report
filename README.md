@@ -1,5 +1,8 @@
 <h1 align="center"> Hackernews Exam Report </h1>
 
+## Api [http://165.227.136.184](http://165.227.136.184)
+## Front-end [Hackernews Clone](http://165.227.165.30/#/) 
+
 ## Introduction
 This report will contain an examination of the hackernews clone system, and a analysis where we dive into the thought process behind the development of system, how the group worked as a team and also get more technical. 
 We will dive into crucial functinality the hackernews system consists of, the different requirements, the architecture, and how the maintenance process has been, and much more. 
@@ -73,7 +76,6 @@ We have been using github to version control and collaboration, so that the we a
 Me(Mazlum) and Ismail used scrum the way it suited us best, we did not do any sprints, we did use userstories at times did them together and at times seperate. If one of us had some issues we would typically use teamviewer to help each other. For example there have been lot of pair programming working with our front-end.  
 
 ##### Deploymemt
-MVP Application: [http://165.227.136.184](http://165.227.136.184)
 
 ---
 
@@ -162,7 +164,6 @@ The reason for this is we wanted it to be fast since the page only loads once, m
 **Creation of a account:**
 ![Create Account](https://github.com/bigstepdenmark/HackerNewsFrontend/blob/master/images/5.png)
 
-Link to our project FRONTEND: [Hackernews Clone](http://165.227.165.30/#/)
 
 #### Back-end
 The **back-end** is created using **Laravel 5.5** where we have kept the classes and methods small and simple as possible. We have tried follow the concept **low coupling** and **high cohesion** to get better quality code, also make it better for changes to come, and also to unit test.      
